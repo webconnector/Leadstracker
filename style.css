@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-width: 400px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid #083033;
+    margin-bottom: 7px;
+} 
+
+input:focus {
+    border: none;
+} 
+
+button {
+    width: 100px;
+    color: white;
+    background-color:#083033;
+    padding: 7px;
+    border: 1px solid #083033;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#delete-btn {
+    background-color: white;
+    color: #083033
+    ;
+}
+
+#delete_btn {
+    width: 20px;
+    color: red;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Leads List styles  */
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+li {
+    margin-top: 5px;
+    
+}
+
+li a {
+    color: #083033;
+    text-decoration: none;
+}
+
